@@ -1,0 +1,33 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main__slogan{
+    margin:20px; 
+    text-align: center; 
+    height:100%; 
+    color:#C2A204; 
+    font-family: 'Avantgarde', TeX Gyre Adventor, URW Gothic L, serif; 
+    font-style: oblique; 
+    font-size: 40px;
+}
+
+.main__bajada{
+    @extend .main__slogan;
+    margin:10px 10px 50px; 
+    font-size: 30px;
+}
+
+.main__parrafo{
+    @extend .main__slogan;
+    font-size: 1.25rem;
+}
+
+.main__promo{
+    @extend.main__slogan;
+    padding: 20px 0;
+    height: auto;
+    background-color: $miel;
+    color: white;
+    font-size: 1.25rem;
+}

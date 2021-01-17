@@ -1,0 +1,188 @@
+@charset "UTF-8";
+h1 {
+  color: #F7DB4F; }
+
+h2 {
+  color: #756826; }
+
+ul li {
+  color: #756826; }
+
+ol li {
+  color: #756826; }
+
+.parrafoSimple {
+  color: #F7DB4F; }
+
+.imagen {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+.card:hover .imagen {
+  opacity: 0.3; }
+
+h1 {
+  text-align: center; }
+
+body {
+  margin: 0; }
+
+/*Promo*/
+/*Promo*/
+/*Card-body Home*/
+.card-body {
+  text-align: center; }
+
+/*Card-body Home*/
+/*Menu Header*/
+.header__fondo {
+  background-image: url(../images/apiary_header.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75); }
+
+.header__logo:hover {
+  transform: scale(1.1, 1.1); }
+
+/*Menu Header*/
+/*Footer*/
+.footer__fondo {
+  background-image: linear-gradient(to bottom, black, #383004, #534600);
+  color: white;
+  display: block;
+  width: 100%;
+  border-top: solid 10px black;
+  margin: 10px 0px 0px 0px; }
+
+#footer__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+#footer__grid .item {
+  border: hidden;
+  padding: 10px; }
+
+.footer__quitarLink {
+  text-decoration: none;
+  color: #756202; }
+
+a:hover {
+  text-decoration: none;
+  color: black; }
+
+a:active {
+  text-decoration: none;
+  color: grey; }
+
+/*Footer*/
+html {
+  font-family: 'Montserrat', sans-serif; }
+
+.main__slogan, .main__bajada, .main__parrafo, .main__promo {
+  margin: 20px;
+  text-align: center;
+  height: 100%;
+  color: #C2A204;
+  font-family: 'Avantgarde', TeX Gyre Adventor, URW Gothic L, serif;
+  font-style: oblique;
+  font-size: 40px; }
+
+.main__bajada {
+  margin: 10px 10px 50px;
+  font-size: 30px; }
+
+.main__parrafo {
+  font-size: 1.25rem; }
+
+.main__promo {
+  padding: 20px 0;
+  height: auto;
+  background-color: #F7DB4F;
+  color: white;
+  font-size: 1.25rem; }
+
+/*INICIO*/
+/*Grid Miel Orgánica*/
+#productos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-around; }
+
+#productos .item {
+  border: hidden;
+  padding: 5px;
+  color: #C2A204;
+  text-align: center; }
+
+#productos .item:hover {
+  opacity: 0.5; }
+
+/*Grid Miel Orgánica*/
+/*Flexbox de la home para video home*/
+.contenidoHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 5px; }
+
+.contenidoHome .item {
+  padding: 5px;
+  margin: 0px 5px; }
+
+/*Flexbox de la home para video home*/
+/*RECETAS*/
+/*Grid de la sección de recetas*/
+#recetas {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr; }
+
+#recetas .item {
+  border: hidden;
+  padding: 10px;
+  text-align: center; }
+
+#recetas .item:hover {
+  transform: scale(1.1, 1.1); }
+
+/*Grid de la sección de recetas*/
+/*NUESTROS PRODUCTOS*/
+/*Grid Nuestros Productos*/
+#nuestrosProd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-around;
+  margin: 5px; }
+
+#nuestrosProd .item {
+  border: hidden;
+  padding: 5px;
+  text-align: center; }
+
+/*Grid Nuestros Productos*/
+/*ORIGEN Y COMPROMISO*/
+/*Grid de Origen y ompromiso*/
+#origen {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr;
+  justify-content: space-around;
+  margin: 5px; }
+
+#origen .item {
+  border: hidden;
+  margin: 5px 20px 5px 5px;
+  text-align: center; }
+
+/*Grid de Origen y ompromiso*/
+.main__promo {
+  display: none; }
