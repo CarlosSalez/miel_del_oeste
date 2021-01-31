@@ -32,22 +32,12 @@
 /*Flexbox de la home para video home*/
 
 /*RECETAS*/
-/*Grid de la sección de recetas*/
-#recetas {
-	display: grid;
-	grid-template-columns: auto;
-    grid-template-rows: 1fr;
+.recetas {
+    padding: 3rem;
 }
-
-#recetas .item {
-    border: hidden;
-    padding: 10px;
-    text-align: center;
+.recetas:hover{
+    transform: scale(1.05, 1.05)
 }
-#recetas .item:hover{
-    transform: scale(1.1, 1.1)
-}
-/*Grid de la sección de recetas*/
 
 /*NUESTROS PRODUCTOS*/
 /*Grid Nuestros Productos*/
@@ -70,7 +60,6 @@
 #origen{
     display:grid;
     grid-template-columns:auto;
-    grid-template-rows: 1fr;
     justify-content: space-around;
     margin: 5px;
 }

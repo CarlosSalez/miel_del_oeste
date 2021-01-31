@@ -4,12 +4,16 @@ h1 {
 
 body{
     margin: 0;
+    font-size: 1.15rem;
 }
 
 td {
     padding: 6px;
 }
-
+h2 {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+}
 /*Promo*/
 $promo:no;
 /*Promo*/
@@ -29,6 +33,11 @@ $promo:no;
     position: relative;
     min-height: 100vh;
     box-shadow: 0 0 10px rgba(0,0,0,0.75);
+    margin-bottom: 2rem;
+}
+
+.header__font{
+    font-size: 1.5rem;
 }
 
 .header__logo{
@@ -46,6 +55,7 @@ $promo:no;
     position: relative;
     width: 100%;
     box-shadow: 0 0 10px rgba(0,0,0,0.75);
+    margin-bottom: 2rem;
 }
 
 .header__logo-pages{
@@ -58,36 +68,21 @@ $promo:no;
 
 /*Footer*/
 .footer__fondo{
-    background-image: linear-gradient(to bottom, black, #383004,#534600);
-    color:white;
-    display: block;
-    width: 100%;
-    border-top: solid 10px black;
-    margin: 10px 0px 0px 0px;
-}
-
-#footer__grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-#footer__grid .item{
-    border: hidden;
-    padding: 10px;
+    background-color:#212529;
 }
 
 .footer__quitarLink{
     text-decoration: none;
-    color:#756202;
+    color:#c5a400;
 }
     a:hover {
         text-decoration: none;
-        color:black
+        color:grey
     }
     
     a:active {
         text-decoration: none;
-        color:grey
+        color:#c5a400;
 }
 
 /*Footer*/
@@ -118,3 +113,8 @@ $promo:no;
     border-color: $miel;
 }
 /*Botón enviar*/
+
+/*Video index*/
+.video__index{
+    width: 100%;
+}

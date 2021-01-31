@@ -26,10 +26,15 @@ h1 {
   text-align: center; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  font-size: 1.15rem; }
 
 td {
   padding: 6px; }
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold; }
 
 /*Promo*/
 /*Promo*/
@@ -46,7 +51,11 @@ td {
   background-size: cover;
   position: relative;
   min-height: 100vh;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75); }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+  margin-bottom: 2rem; }
+
+.header__font {
+  font-size: 1.5rem; }
 
 .header__logo {
   display: block;
@@ -61,7 +70,8 @@ td {
   background-size: cover;
   position: relative;
   width: 100%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75); }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+  margin-bottom: 2rem; }
 
 .header__logo-pages {
   display: block;
@@ -72,32 +82,19 @@ td {
 /*Menu Header*/
 /*Footer*/
 .footer__fondo {
-  background-image: linear-gradient(to bottom, black, #383004, #534600);
-  color: white;
-  display: block;
-  width: 100%;
-  border-top: solid 10px black;
-  margin: 10px 0px 0px 0px; }
-
-#footer__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr; }
-
-#footer__grid .item {
-  border: hidden;
-  padding: 10px; }
+  background-color: #212529; }
 
 .footer__quitarLink {
   text-decoration: none;
-  color: #756202; }
+  color: #c5a400; }
 
 a:hover {
   text-decoration: none;
-  color: black; }
+  color: grey; }
 
 a:active {
   text-decoration: none;
-  color: grey; }
+  color: #c5a400; }
 
 /*Footer*/
 /*Botón enviar*/
@@ -125,30 +122,51 @@ a:active {
   border-color: #F7DB4F; }
 
 /*Botón enviar*/
+/*Video index*/
+.video__index {
+  width: 100%; }
+
 html {
   font-family: 'Montserrat', sans-serif; }
 
-.main__slogan, .main__bajada, .main__parrafo, .main__promo {
-  margin: 20px;
+.main__slogan, .main__slogan__pages, .main__bajada, .main__bajada__pages, .main__parrafo, .main__promo, .bajada {
+  margin: 2rem;
   text-align: center;
   height: 100%;
   color: #C2A204;
   font-family: 'Montserrat', sans-serif;
   font-size: 3.5rem; }
 
-.main__bajada {
+.main__slogan__pages {
+  font-size: 2.5rem; }
+
+.main__bajada, .main__bajada__pages {
   margin: 10px 10px 50px;
-  font-size: 30px; }
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: left; }
+
+.main__bajada__pages {
+  text-align: center; }
 
 .main__parrafo {
   font-size: 1.25rem; }
 
 .main__promo {
-  padding: 20px 0;
+  padding: 2rem 0;
   height: auto;
   background-color: #F7DB4F;
   color: white;
   font-size: 1.25rem; }
+
+.bajada {
+  font-family: 'Sacramento', cursive;
+  font-size: 2.3rem;
+  text-align: center;
+  margin-top: 1em; }
+
+.nav__font {
+  font-weight: bold; }
 
 /*INICIO*/
 /*Grid Miel Orgánica*/
@@ -181,21 +199,12 @@ html {
 
 /*Flexbox de la home para video home*/
 /*RECETAS*/
-/*Grid de la sección de recetas*/
-#recetas {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 1fr; }
+.recetas {
+  padding: 3rem; }
 
-#recetas .item {
-  border: hidden;
-  padding: 10px;
-  text-align: center; }
+.recetas:hover {
+  transform: scale(1.05, 1.05); }
 
-#recetas .item:hover {
-  transform: scale(1.1, 1.1); }
-
-/*Grid de la sección de recetas*/
 /*NUESTROS PRODUCTOS*/
 /*Grid Nuestros Productos*/
 #nuestrosProd {
@@ -216,7 +225,6 @@ html {
 #origen {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 1fr;
   justify-content: space-around;
   margin: 5px; }
 
